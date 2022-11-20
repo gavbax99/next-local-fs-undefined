@@ -1,0 +1,23 @@
+{
+  "name": "cursed_repo",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "eslint": "eslint ./ --ext js,jsx"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.4",
+    "next": "13.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.34.8"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.4.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
